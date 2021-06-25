@@ -1,0 +1,50 @@
+﻿  BTree.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  Buffer.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  Builder.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  Clock.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(141): warning C4312: 'type cast': conversion from 'int' to 'T *' of greater size
+          with
+          [
+              T=Counter
+          ]
+  d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\clock.cpp(51): note: see reference to function template instantiation 'T &Array::Cast<Counter>(int)' being compiled
+          with
+          [
+              T=Counter
+          ]
+  Compiler.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  Counter.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  Decoder.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  EventManager.cpp
+  ExecUnit.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  System.cpp
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4311: '<function-style-cast>': pointer truncation from 'int *' to 'int'
+d:\hust\nam_5_2\datn\version1\v2\oanh\device_2021_05_v3\system\buffer.h(144): warning C4302: '<function-style-cast>': truncation from 'int *' to 'int'
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\HUST\NAM_5_2\DATN\Version1\V2\Oanh\Device_2021_05_V3\x64\Debug\System.exe : fatal error LNK1120: 1 unresolved externals

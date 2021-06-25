@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{5add2a75-f174-4ba6-a7c2-e41e3369b71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Communication">
+      <UniqueIdentifier>{20687892-73c0-4381-82e2-1332ed9030df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulator">
+      <UniqueIdentifier>{8f248c64-82d8-400d-9cc1-5243aaab53a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{ac4016bd-d1d7-4ddd-95db-e2025d27d4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BIOS">
+      <UniqueIdentifier>{fbb46e80-2570-4ab1-8dad-b5b608b334f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setting">
+      <UniqueIdentifier>{f3fa1fbe-44bb-4851-9796-6b212ff7013f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Startup">
+      <UniqueIdentifier>{2108ff20-2bcc-45e9-8ae9-001756e039ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Activity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Communication\MqttEngine.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Communication\SimCard.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Communication\WIFI.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\Device.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\LineBuilder.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\ScreenBuilder.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Simulator\LCD.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Simulator\LED.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Buffer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Builder.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Clock.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Compiler.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Decoder.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\EventManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\ExecUnit.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\System.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\BTree.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Counter.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BIOS\BIOS.cpp">
+      <Filter>BIOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BIOS\DigitalPort.cpp">
+      <Filter>BIOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BIOS\HardDisk.cpp">
+      <Filter>BIOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BIOS\Monitor.cpp">
+      <Filter>BIOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BIOS\Keyboard.cpp">
+      <Filter>BIOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Simulator\Win32Keyboard.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Simulator\Win32Device.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTimeSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Act.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="PinCode.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Plan.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\SDStartup.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\SimStartup.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\Startup.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Simulator\Win32Internet.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\Internet.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\Functions.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\ClientID.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\Sensors.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ARM.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Alarm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Simulator\SerialPort.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Simulator\Simulator.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="PinCode.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Plan.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Act.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTimeSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Device\SDStartup.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Device\SimStartup.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Device\Startup.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Device\Internet.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="ARM.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Alarm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Simulator\LCD.h">
+      <Filter>Simulator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

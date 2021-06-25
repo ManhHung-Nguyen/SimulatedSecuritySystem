@@ -1,0 +1,11 @@
+﻿  SerialBuffer.cpp
+D:\Programming\CPP\Device_2021_05_V3\Communication\SerialBuffer.cpp(1,10): fatal error C1083: Cannot open include file: 'SerialBuffer.h': No such file or directory
+  SerialPort.cpp
+D:\Programming\CPP\Device_2021_05_V3\Communication\SerialPort.h(35,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming\CPP\Device_2021_05_V3\Communication\SerialPort.h(90): message : see reference to class template instantiation 'SerialPort<T>' being compiled
+D:\Programming\CPP\Device_2021_05_V3\Communication\SerialPort.h(35,1): warning C4183: 'SerialBuffer': missing return type; assumed to be a member function returning 'int'
+  SimCard.cpp
+D:\Programming\CPP\Device_2021_05_V3\Communication\SerialPort.h(35,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming\CPP\Device_2021_05_V3\Communication\SerialPort.h(90): message : see reference to class template instantiation 'SerialPort<T>' being compiled
+D:\Programming\CPP\Device_2021_05_V3\Communication\SerialPort.h(35,1): warning C4183: 'SerialBuffer': missing return type; assumed to be a member function returning 'int'
+  Generating Code...
